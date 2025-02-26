@@ -49,7 +49,7 @@ INSERT INTO hongong2 VALUES (NULL, "렉스", 21);
 SELECT * FROM hongong2;
 
 # 테이블 수정하기 : ALTER
-# 컬럼 추가  ALTER TABLE 테이블명 DD COLUMN 컬럼명, 자료형, 속성(NOT NULL, UNIQUE)
+# 컬럼 추가  ALTER TABLE 테이블명 ADD COLUMN 컬럼명, 자료형, 속성(NOT NULL, UNIQUE)
 # hongong2 테이블에 country 컬럼 추가하기
 ALTER TABLE hongong2 ADD COLUMN country VARCHAR(100);
 
