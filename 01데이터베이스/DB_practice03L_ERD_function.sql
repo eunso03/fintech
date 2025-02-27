@@ -73,7 +73,7 @@ SELECT CHAR_LENGTH("홍 길동"), LENGTH("홍 길동");  # LENGRH함수는 한�
 # 문자를 연결하는 함수 : CONCAT(), CONCAT_WS()
 SELECT CONCAT("this", "is", "mysql") as concat1;
 SELECT CONCAT("  this", " is ", "mysql") as concat1;
-SELECT CONCAT("  this", null, "mysql") as concat1;  # null이 있으면 결과도 nul
+SELECT CONCAT("  this", null, "mysql") as concat1;  # null이 있으면 결과도 null
 SELECT CONCAT_WS(" : ","this", " is ", "mysql") as concat1;
 SELECT CONCAT_WS("  ","this", "is", "mysql") as concat1;
 SELECT CONCAT_WS(" VS ","헐크", "아이언맨", "타노스") as concat1;
@@ -96,12 +96,12 @@ SELECT RPAD("sql", 7, "=");
 SELECT LTRIM("    SQL    ");
 SELECT RTRIM("    SQL    ");
 
-#문자열의 공백을 앞 뒤로 삭제하는 함수 : TRIM()
+# 문자열의 공백을 앞 뒤로 삭제하는 함수 : TRIM()
 SELECT TRIM("    SQL    ");
 SELECT TRIM("    MY SQL    ");  # 문자열 사이에 있는 공백은 그대로 남음
 SELECT TRIM("    MY SQL STUDY    "); 
 
-# 문자열을 잘라내는 함수 LEFT(믄자열, 길이), RIGHT(문자열, 길이)
+# 문자열을 잘라내는 함수 LEFT(문자열, 길이), RIGHT(문자열, 길이)
 SELECT LEFT("this is my sql", 4), RIGHT("this is my sql", 5);
 SELECT LEFT("이것이 my sql이다.", 5), RIGHT("이것이 my sql이다.", 5);
 
@@ -134,7 +134,7 @@ SELECT DAYNAME("2025-05-05");
 SELECT DAYOFWEEK(NOW());
 SELECT DAYOFWEEK("2024-05-05");
 
-# 1년 중 오늘이 며칠쨰인지 : DAYOFYEAR(날짜)
+# 1년 중 오늘이 며칠째인지 : DAYOFYEAR(날짜)
 SELECT DAYOFYEAR(NOW());
 SELECT DAYOFYEAR("2025-05-08");
 
