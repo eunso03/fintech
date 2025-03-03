@@ -8,8 +8,23 @@
 # Q. 관계형 데이터베이스는 다:다 관계를 허용하지 않는다. 과목과 학생의 다:다 관계를 해소하기 위해서 조인테이블 역할을 수행할 수강 엔티티를 추가한다.
 # 과목과 수강은 1:다 관계 / 학생과 수강은 1:다 관계
 
+use univ_lms;
 # 학생 테이블
-SELECT * FROM univ_lms.student;
+SELECT * FROM student;
 
 # 학과 테이블
-SELECT * FROM univ_lms.department;
+SELECT * FROM department;
+
+# 교수 테이블
+SELECT * FROM professor;
+
+# 과목 테이블
+SELECT * FROM course;
+
+CREATE TABLE enrollment (
+    student_id INT,  
+    course_id INT,    
+    PRIMARY KEY (student_id, course_id), 
+    FOREIGN KEY (student_id) REFERENCES student(id),
+    FOREIGN KEY (course_id) REFERENCES course(id)     
+);
