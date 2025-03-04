@@ -1,3 +1,4 @@
+use univ_lms;
 # 1.학생번호, 학생명, 키높이, 학과번호, 학과명 정보를 출력하세요.
 select * from student;   # N
 select * from department; # 1
