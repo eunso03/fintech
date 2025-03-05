@@ -1,0 +1,100 @@
+/* 아이디 main-title인 요소를 가운데 정렬하세요. */
+#main-title {
+    text-align: center;
+}
+
+/* 클래스 navbar 안의 <a> 태그 글자색을 파란색으로 설정하세요. */
+.navbar {
+    color: blue;
+}
+
+/* 클래스 container 안의 모든 <h2> 태그 글자 크기를 22px로 설정하세요. */
+.container {
+    font-size: 22px;
+}
+
+/* 클래스 highlight가 있는 요소들의 글자색을 빨간색으로 설정하세요. */
+p[class="highlight"] {
+    color: red;
+}
+
+/* <header> 안의 모든 <li> 글자 크기를 18px로 설정하세요. */
+header li {
+    font-size: 18px;
+}
+
+/* 클래스 service-list 안 첫 번째 <li>를 가운데 정렬하세요. */
+.service-list > li:first-child {
+    text-align: center;
+}
+
+/* 클래스 review 안 <h3> 태그 글자색을 초록색으로 설정하세요. */
+.review > h3 {
+    color: green;
+}
+
+/* <aside> 안의 <h2> 태그를 오른쪽 정렬하세요. */
+aside h2 {
+    text-align: right;
+}
+
+/* 클래스 notice-list의 마지막 <li> 글자색을 주황색으로 설정하세요. */
+.notice-list > li:last-child {
+    color: orange;
+}
+
+/* 클래스 notice-list 두 번째 <li> 글자 크기를 20px로 설정하세요. */
+.notice-list > li:nth-child(2) {
+    font-size: 20px;
+}
+
+/* 클래스 review의 첫 번째 <p> 글자색을 보라색으로 설정하세요. */
+.review > p:first-of-type {
+    color: violet;
+}
+
+/* <footer> 안 <a> 태그 글자색을 초록색으로 설정하세요. */
+footer a {
+    color: green;
+}
+
+/* target="_blank" 속성이 있는 <a> 태그를 가운데 정렬하세요. */
+a[target="_blank"] {
+    text-align: center;
+}
+
+/* 모든 <button> 태그 글자 크기를 16px로 설정하세요. */
+button {
+    font-size: 16px;
+}
+
+/* 버튼에 마우스를 올렸을 때 글자색을 회색으로 설정하세요. */
+button:hover {
+    color: grey;
+}
+
+/* 클래스 intro 바로 다음에 오는 <article> 글자 크기를 24px로 설정하세요. */
+.intro + article {
+    font-size: 24px;
+}
+
+/* <section> 안 <h2> 태그들을 가운데 정렬하세요. */
+section h2 {
+    text-align: center;
+}
+
+/* 클래스 review 중 마지막 요소 글자색을 핑크색으로 설정하세요. */
+.review:last-of-type {
+    color: pink;
+}
+
+
+/* 클래스 service-list 세 번째 <li> 글자색을 빨간색으로 설정하세요. */
+.service-list > li:nth-child(3) {
+    color: red;
+}
+
+/* <nav> 안 마지막 <li>를 오른쪽 정렬하세요. */
+nav li:last-child {
+    text-align: center;
+}
