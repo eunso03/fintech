@@ -98,3 +98,103 @@ section h2 {
 nav li:last-child {
     text-align: center;
 }
+
+/* 모든 <article> 태그 글자 크기를 20px로 설정하세요. */
+article {
+    font-size: 20px;
+}
+
+/* <aside> 안 첫 번째 <li> 글자색을 파란색으로 설정하세요. */
+.aside li:first-of-type {
+    color: blue;
+}
+
+/* <header> 안 <h1> 태그 글자색을 보라색으로 설정하세요. */
+header h1 {
+    color: purple;
+}
+
+/* 클래스 services 안 <ul> 글자를 왼쪽 정렬하세요. */
+.services ul {
+    text-align: left;
+}
+
+/* <footer> 안 <p> 글자 크기를 12px로 설정하세요. */
+footer p {
+    font-size: 12px;
+}
+
+/* 모든 <h3> 태그 글자색을 파란색으로 설정하세요. */
+h3 {
+    color: blue;
+}
+
+/* 클래스 notice-list 안 홀수 번째 <li> 글자색을 초록색으로 설정하세요. */
+.notice-list li:nth-child(2n+1) {
+    color: green;
+}
+
+/* 클래스 notice-list 안 짝수 번째 <li> 글자색을 주황색으로 설정하세요. */
+.notice-list li:nth-child(2n) {
+    color: orange;
+}
+
+/* 모든 <section> 안 <p> 태그 글자 크기를 16px로 설정하세요. */
+section p {
+    font-size: 16px;
+}
+
+/* <article> 안 첫 번째 <p> 글자색을 빨간색으로 설정하세요. */
+article p:first-of-type {
+    color: red;
+}
+
+/* <nav> 안 <a> 태그에 마우스를 올렸을 때 글자색을 초록색으로 설정하세요. */
+nav a:hover {
+    color: green;
+}
+
+/* <button>에 마우스를 올렸을 때 글자 크기를 18px로 설정하세요. */
+button:hover {
+    font-size: 18px;
+}
+
+/* 클래스 review 안 첫 번째 <h3> 글자 크기를 24px로 설정하세요. */
+.review h3:first-child {
+    font-size: 24px;
+}
+
+/* <article> 태그 중 첫 번째 요소 글자색을 보라색으로 설정하세요. */
+article:first-child {
+    color: purple;
+}
+
+/* 클래스 service-list 마지막 <li> 글자 크기를 18px로 설정하세요. */
+.service-list li:last-child {
+    font-size: 18px;
+}
+
+/* 클래스 intro 안 <p> 태그 글자색을 초록색으로 설정하세요. */
+.intro p {
+    color: green;
+}
+
+/* 클래스 services 안 <h2> 태그 글자 크기를 20px로 설정하세요. */
+.services h2 {
+    font-size: 20px;
+}
+
+/* <footer> 안 <a> 태그에 마우스를 올렸을 때 글자색을 빨간색으로 설정하세요. */
+footer a:hover {
+    color: red;
+}
+
+/* 클래스 reviews 안 마지막 <div> 글자 크기를 22px로 설정하세요. */
+.reviews div:last-child {
+    font-size: 22px;
+}
+
+/* 클래스 navbar 안 첫 번째 <li> 글자색을 주황색으로 설정하세요. */
+.navbar li:first-child {
+    color: orange;
+}
