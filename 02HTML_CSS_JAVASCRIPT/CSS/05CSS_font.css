@@ -1,3 +1,6 @@
+/* 위에서 import를 해야 적용됨 */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap'); */
+
 /* 폰트 굵기 바꾸기 */
 /* font-weight */
 
@@ -113,11 +116,11 @@ html {
 }
 
 .font_color li:nth-child(4) {
-    color: rgb(120,220, 61, 0.749);
+    color: rgba(120,220, 61, 0.749);
 }
 
 .font_color {
-    background-color: rgb(0,0,0,0.8);
+    background-color: rgba(3, 3, 3, 0.479);
 }
 
 /* 텍스트 줄 간격 바꾸기 */

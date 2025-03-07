@@ -15,7 +15,7 @@
 
 .width_height { 
     border: 1px solid red;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .width_height article {
@@ -135,11 +135,13 @@ div.padding2 div {
 
 .padding2 div:first-child {
     padding: 0px;
+    margin: 20px;
 }
 
 .padding2 div:last-child {
     padding: 30px;
-    box-sizing: border-box;
+    margin: 20px;
+    /* box-sizing: border-box; */
 }
 
 /* 태두리의 형태 지정하기 */
