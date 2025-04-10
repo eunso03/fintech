@@ -7,7 +7,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-def ko2eng(keyword):
+
+def kor2eng(keyword):
     """
     구글 번역기에 한국어 넣고 영어로 번역 후
     번역결과 가져오는 함수
@@ -37,3 +38,4 @@ def ko2eng(keyword):
     
     return translated_box.text
  
+
