@@ -17,5 +17,15 @@ def to_ex_db(df):
     # DataBase 쿼리창 오픈
     conn = dbconnect()
     time.sleep(1)
-    df.to_sql(f"exchage_rate", con=conn, if_exists="append", index=False)
+    df.to_sql(f"exchange_rate", con=conn, if_exists="append", index=False)
+    conn.close()
+
+def to_ex_db_test(df):
+    """
+
+    """
+    # DataBase 쿼리창 오픈
+    conn = dbconnect()
+    time.sleep(1)
+    df.to_sql(f"exchange_rate_today", con=conn, if_exists="append", index=False)
     conn.close()
