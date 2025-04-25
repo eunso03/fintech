@@ -41,8 +41,8 @@ time.sleep(5)
 wait = WebDriverWait(driver, 60)
 
 # 시작일과 끝일 입력해서 날짜 리스트 생성
-start_date = datetime.date(2025, 4, 11) 
-end_date = datetime.date(2025, 4, 20) 
+start_date = datetime.date(2025, 4, 23) 
+end_date = datetime.date(2025, 4, 24) 
 
 date_list = []
 while start_date <= end_date:
