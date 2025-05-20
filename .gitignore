@@ -3,7 +3,10 @@ data/
 dist/
 build/
 model/
+catanddog/
 *.json
 *.csv
 *.exe
 *.keras
+*.jpg
+*.png
