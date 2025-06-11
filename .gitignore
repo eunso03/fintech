@@ -10,3 +10,4 @@ catanddog/
 *.keras
 *.jpg
 *.png
+*.env*
